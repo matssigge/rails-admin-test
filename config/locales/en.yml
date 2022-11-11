@@ -31,3 +31,10 @@
 
 en:
   hello: "Hello world"
+
+  admin:
+    actions:
+      flange:
+        title: "Flange"
+        menu: "Flange"
+        breadcrumb: "Flange"
