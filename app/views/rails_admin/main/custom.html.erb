@@ -1,7 +1,7 @@
-<h2>Flange a widget</h2>
+<h2>Custom action for a widget</h2>
 <p>Name: <%= @object.name %></p>
 <!-- Here, in a custom admin view, using the helper admin_custom_action_path does not work. Why? -->
-<%= form_tag '/admin/custom_action', method: :post do |form| %>
-<%#= form_tag admin_custom_action_path, method: :post do |form| %>
+<%#= form_tag '/admin/custom_action', method: :post do |form| %>
+<%= form_tag admin_custom_action_path, method: :post do |form| %>
   <button type="submit">Custom action!</button>
 <% end %>

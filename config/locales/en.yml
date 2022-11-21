@@ -34,7 +34,7 @@ en:
 
   admin:
     actions:
-      flange:
-        title: "Flange"
-        menu: "Flange"
-        breadcrumb: "Flange"
+      custom:
+        title: "Custom action"
+        menu: "Custom action"
+        breadcrumb: "Custom action"

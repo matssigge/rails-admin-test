@@ -35,7 +35,7 @@ RailsAdmin.config do |config|
     delete
     show_in_app
 
-    member :flange do
+    member :custom do
       only ['Widget']
       link_icon 'fas fa-screwdriver-wrench'
     end
